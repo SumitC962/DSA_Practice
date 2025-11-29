@@ -3,13 +3,6 @@ LeetCode Daily Challenge Solutions
 This repository contains my solutions to the LeetCode Daily Challenge using C++.
 Each problem is solved with clean, efficient code and follows best practices for competitive programming.
 
-📌 Structure
-/
-├── YYYY/
-│   ├── MM/
-│   │   ├── <problem_number>_<short_title>.cpp
-│   │   └── ...
-└── README.md
 
 🚀 Features
 
