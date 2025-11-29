@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     long long maxSubarraySum(vector<int>& nums, int k) {
@@ -5,7 +8,7 @@ public:
         long long ans = LLONG_MIN;
         vector<long long> minPrefix(k, LLONG_MAX);
 
-        minPrefix[0] = 0; 
+        minPrefix[0] = 0; // prefix before starting
 
         for (int i = 0; i < nums.size(); i++) {
             prefix += nums[i];
@@ -21,3 +24,13 @@ public:
         return ans;
     }
 };
+
+int main() {
+    vector<int> nums = {1, -2, 3, 4, -1, 2};
+    int k = 3;
+
+    Solution s;
+    cout << s.maxSubarraySum(nums, k) << endl;
+
+    return 0;
+}
