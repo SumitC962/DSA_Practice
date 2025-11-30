@@ -30,13 +30,11 @@ public:
     }
 };
 
-// Minimal `main` so the file is easy to build/run in VS Code.
-// Change the sample input below or replace with a simple parser.
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    // Sample test
     vector<int> nums = {3, 1, 4, 2};
     int p = 6;
     Solution sol;
